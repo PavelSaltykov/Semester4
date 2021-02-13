@@ -1,6 +1,6 @@
 # SPbU Homework and Tests
 
-| [Semester 4](#semester-4) 
+| Semester 4 
 | :-: 
 | [Homework 1](#homework-1)
 
