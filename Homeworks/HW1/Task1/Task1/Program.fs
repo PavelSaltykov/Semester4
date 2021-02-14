@@ -2,7 +2,7 @@
     let rec subReverse list acc =
         match list with
         | [] -> acc
-        | head :: tail -> subReverse tail (head::acc)
+        | head :: tail -> subReverse tail (head :: acc)
     subReverse list []
 
 let list = [1; 2; 3]
