@@ -2,8 +2,8 @@
     let rec find list i =
         match list with
         | [] -> None
-        | head :: tail when head = number -> Some(i)
-        | head :: tail -> find tail (i + 1)
+        | head :: _ when head = number -> Some(i)
+        | _ :: tail -> find tail (i + 1)
     find list 0
 
 let list = [1; 2; 3]
