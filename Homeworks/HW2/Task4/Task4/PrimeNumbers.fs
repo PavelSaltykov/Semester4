@@ -7,4 +7,4 @@ module PrimeNumbers =
         let isPrime n =
             let max = float n |> sqrt |> int
             [2 .. max] |> List.exists (fun i -> n % i = 0) |> not
-        Seq.initInfinite (fun n -> n + 2) |> Seq.filter (fun x -> isPrime x)
+        Seq.initInfinite (fun n -> n + 2) |> Seq.filter isPrime
