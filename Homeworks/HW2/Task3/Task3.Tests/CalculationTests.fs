@@ -8,6 +8,8 @@ open FsUnit
 let dividingByZero () =
     (fun () -> Division(Number(1), Number(0)) |> calculate |> ignore) 
         |> should throw typeof<System.InvalidOperationException>
+    (fun () -> Division(Number(1),  Subtraction(Number(1), Number(1))) |> calculate |> ignore) 
+           |> should throw typeof<System.InvalidOperationException>
 
 let cases () =
     [

@@ -17,5 +17,5 @@ module ParseTree =
         | Addition(left, right) -> calculate left + calculate right
         | Subtraction(left, right) -> calculate left - calculate right
         | Multiplication(left, right) -> calculate left * calculate right
-        | Division(_, right) when right = Number(0) -> invalidOp "Dividing by zero."
-        | Division(left, right) -> calculate left / calculate right
+        | Division(left, right) ->
+            calculate right |> fun r -> if r = 0 then invalidOp "Dividing by zero." else calculate left / r
