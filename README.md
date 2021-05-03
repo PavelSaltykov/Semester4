@@ -4,6 +4,7 @@
 | :-: 
 | [Homework 1](#homework-1)
 | [Homework 2](#homework-2)
+| [Homework 3](#homework-3)
 
 ## Homework 1
 1. **Факториал.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW1/Task1)  
@@ -22,6 +23,7 @@
 5. **Поиск в списке.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW1/Task5)  
 Реализовать функцию, которая выдает первую позицию вхождения заданного числа в список.
 
+
 ## Homework 2
 1. **map, filter, fold.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW2/Task1)  
 Реализовать три варианта функции, подсчитывающей количество четных чисел в списке (с использованием стандартных функций map, filter, fold). Использование рекурсии не допускается, зато нужен FsCheck для проверки функций на эквивалентность.
@@ -34,3 +36,14 @@
 
 4. **Простые числа.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW2/Task4)  
 Реализовать функцию, генерирующую бесконечную последовательность простых чисел.
+
+
+## Homework 3
+1. **Бета-редукция.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW3/Task1)  
+Выполнить бета-редукцию λ-терма ((λa.(λb.b b) (λb.b b)) b) ((λc.(c b)) (λa.a)).
+
+2. **S K K.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW3/Task2)  
+Докажите, что S K K = I.
+
+3. **Лямбда-интерпретатор.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW3/Task3)  
+Реализовать интерпретатор лямбда-выражений, выполняющий бета-редукцию по нормальной стратегии. Лямбда-выражения задаются через размеченные объединения. Должна поддерживаться альфа-конверсия для избежания захвата свободных переменных. 
