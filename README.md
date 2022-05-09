@@ -39,10 +39,10 @@
 
 
 ## Homework 3
-1. **Бета-редукция.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW3/Task1)  
+1. **Бета-редукция.** [Solution](https://github.com/PavelSaltykov/Semester4/blob/main/Homeworks/HW3/Task1.tex)  
 Выполнить бета-редукцию λ-терма ((λa.(λb.b b) (λb.b b)) b) ((λc.(c b)) (λa.a)).
 
-2. **S K K.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW3/Task2)  
+2. **S K K.** [Solution](https://github.com/PavelSaltykov/Semester4/blob/main/Homeworks/HW3/Task2.tex)  
 Докажите, что S K K = I.
 
 3. **Лямбда-интерпретатор.** [Solution](https://github.com/PavelSaltykov/Semester4/tree/main/Homeworks/HW3/Task3)  
